@@ -1,0 +1,8 @@
+Trabalhando de forma assincrona
+Sincrona: Em sequencia
+Assincrona: Fora de sequencia
+-- Promises -- 
+
+Possibilita a execução de duas partes do script de forma simuntanea 
+
+A promise é um objeto
