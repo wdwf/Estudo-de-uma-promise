@@ -1,61 +1,48 @@
-let carro = {
-    //Propriedades e metodos
-    marca: "VW", //Isso é uma propriedade
+// Descobrindo o comprimento de uma string
+let texto = "Hello World!";
 
-    preco: "1000",
+console.log( texto.length ); //12
 
-    //O metodo é quando se cria uma função 
-    andar: function() {
-        console.log("andou");
-    }
+// Recuperando caractere especifico
+console.log( texto[0] );
+
+// Pegando o ultimo caractere da string
+console.log( texto[texto.length - 1] );
+
+//================================================
+
+// Encontrando uma Substring dentro de uma string
+console.log( texto.indexOf('llo') ); //2
+
+// Exemplo de uso
+if (texto.indexOf('llo') != -1) {
+    //Faz coisas com a string ou outras ações
+    console.log('Achei!!');
 }
 
-console.log(carro.preco);
+//================================================
 
-//Metodos e atributo de classe
+// Extraindo uma parte da string
+console.log( texto.slice(0, 5) );//Hello
+console.log( texto.slice(0, -1) );//Hello World
 
-//Classe = é um modelo que a gente define 
+//================================================
 
+//Mudando para maiusculo
+console.log( texto.toUpperCase() );
 
-//Metodos e atributos de instancia
+//================================================
 
-//Instancia = é uma variavel que se beneficia da utilização da classe definida por meui do camando NEW
+//Mudando para minusculo
+console.log( texto.toLowerCase() );
 
-//Quando se utiliza classe automaicamente se cria um objeto
+//================================================
 
-//--------------------------------------------
-//GET E SET
+//Atuaçizando parte de uma string
+let texto2 = texto.replace('Hello', 'Champion');
+console.log(texto2);
 
-var _v = 0;
+//================================================
 
-let obj = {
-    //GET é usado apenas para leitura
-    //Quando se cria um get é necessario se adicionar um return 
-    get v(){
-        return _v;
-    },
-
-    //Retorna um valor modificado
-    set v(value){
-        _v = value * 2;
-    }
-}
-
-
-//obj.v
-
-//obj
-
-
-//----------------------------------------------
-// METODOS DE ARRAYS
-//Metodo é uma ação feita sobre um elemento
-
-const lista = ["a", "b", "c"];
-
-//Push - Aadiciona quantos elementos forem requiridos 
-lista.push("d", "e");
-
-console.log(lista)
 
 
