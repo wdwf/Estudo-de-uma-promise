@@ -42,8 +42,8 @@ palavras.slice(indexInicial, indexFim)
 ```
 * extrai uma parte selecionada de uma string e retorna uma nova string
 * Ele recebe dois parametros:
- - 1° é a posição do caractere a partir da qual será iniciada a extração. 
- - 2° é a posição seguinte do último caractere a ser extraído.
+  - 1° é a posição do caractere a partir da qual será iniciada a extração. 
+  - 2° é a posição seguinte do último caractere a ser extraído.
 * Se um parâmetro for negativo, a posição será contada a partir do final da string.
 ```
 EX:
